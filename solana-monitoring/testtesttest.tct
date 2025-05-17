@@ -1,0 +1,14 @@
+Documentaiton
+
+1. Slot snapshot
+According to input slot range, get every 7200th slot, get the transactiondetails and signatures of the getblock method using name of the script 
+and 7d nerofea, and it will save as the time entry of the request, username, and epoch with time range.  
+
+2. Parse transanction details for each signature to be able to count the direction counts
+Then we fetch and parse to get all the transaction details of and we count the direction counts of the ones that are more than 1.  
+
+3. Related wallets 
+Then we fetch the related wallets for a particular wallet (pubkey) with the net change of token transfer
+
+4. Parse transaction details 
+Then we fetch the transaction details for each of the signatures that interacted with x wallet (incoming and outgoing funds)

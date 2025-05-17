@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -10,6 +7,19 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+
+import React from "react";
+import LiveStream from "@/components/LiveStream"; // adjust path if needed
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-black text-white p-8 flex items-center justify-center">
+      <LiveStream />
+    </div>
+  );
+}
+
 
 export default function Home() {
   return (
@@ -62,6 +72,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a

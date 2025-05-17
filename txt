@@ -1,0 +1,43 @@
+const { PagesDevOverlay } = require("next/dist/client/components/react-dev-overlay/pages/pages-dev-overlay")
+const { loadComponents } = require("next/dist/server/load-components")
+
+Gradiant opque PagesDevOverlay
+Logo top Left
+top right profile 
+bottom right music 
+livechat
+
+choose opaque color 
+upload logo 
+hash for the stream load
+hash for the stream load music
+accountid messageid timestamp emoteid loyaltytokenid loyaltytokenhash
+
+cryptopairvotetitle
+cryptopairvote1
+cryptopairvote2
+cryptopairvote3
+
+cryptopairvotetitle no color background
+cryptopairvote color background
+amount color background 
+fiatchoiceofpurchase color background
+buy btn color background
+
+cryptopaidvotetitle id
+cryptopairvote id & name
+showcase loyaltytokenid against loyaltytokenid
+cryptopairvote id
+showcase loyaltytokenid against loyaltytokenid
+cryptopairvote id
+showcase loyaltytokenid against loyaltytokenid
+
+
+product
+fiatcrypto
+amount 
+buybtn
+loyltytokenpair1
+loyaltytokenpair2
+loyaltytokenpair
+Dateorspecific

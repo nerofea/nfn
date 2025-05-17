@@ -1,0 +1,1 @@
+sed -i '1{/^,/d;}' nerofea_20250430_190049_free_slot_signatures_7d_epoch870.json
