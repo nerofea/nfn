@@ -1,0 +1,13 @@
+{
+  "name": "nfn-wallet-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "build": "npm run build -w @nfn/wallet-auth",
+    "test": "npm run test -w @nfn/wallet-auth",
+    "typecheck": "npm run typecheck -w @nfn/wallet-auth"
+  },
+  "engines": { "node": ">=22" }
+}
